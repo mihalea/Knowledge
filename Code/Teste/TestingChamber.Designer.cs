@@ -48,7 +48,9 @@
             this.lbQuestion.AutoSize = true;
             this.lbQuestion.BackColor = System.Drawing.Color.Transparent;
             this.lbQuestion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbQuestion.ForeColor = System.Drawing.SystemColors.Control;
             this.lbQuestion.Location = new System.Drawing.Point(20, 43);
+            this.lbQuestion.MaximumSize = new System.Drawing.Size(530, 200);
             this.lbQuestion.Name = "lbQuestion";
             this.lbQuestion.Size = new System.Drawing.Size(51, 20);
             this.lbQuestion.TabIndex = 0;
@@ -60,9 +62,9 @@
             this.lbxAns.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lbxAns.FormattingEnabled = true;
             this.lbxAns.ItemHeight = 16;
-            this.lbxAns.Location = new System.Drawing.Point(24, 74);
+            this.lbxAns.Location = new System.Drawing.Point(24, 90);
             this.lbxAns.Name = "lbxAns";
-            this.lbxAns.Size = new System.Drawing.Size(547, 148);
+            this.lbxAns.Size = new System.Drawing.Size(547, 132);
             this.lbxAns.TabIndex = 1;
             // 
             // btnOK
